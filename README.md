@@ -21,7 +21,7 @@ Usage
     -p 8080:8080 \
     -v /var/run/docker.sock:/var/run/docker.sock \
     --name webdocker \
-    docker.pkg.github.com/abuccts/webdocker/webdocker
+    ghcr.io/abuccts/webdocker/webdocker
   ```
 
 - Deploy as DaemonSet in Kubernetes
